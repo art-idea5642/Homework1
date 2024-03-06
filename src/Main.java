@@ -60,5 +60,6 @@ public class Main {
         totalHours = hoursForOne*totalEmployees;
         System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + totalHours + " часов может быть поделено между сотрудниками.");
 
+
     }
 }
