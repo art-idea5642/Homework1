@@ -43,9 +43,11 @@ public class Main {
         var secondBoxerWeight = 82.7;
         System.out.println("Масса второго боксёра = " + secondBoxerWeight + "кг");
         var totalWeight = firstBoxerWeight + secondBoxerWeight;
-        System.out.println("Общий вес боксёров = " + firstBoxerWeight + " + " + secondBoxerWeight + " = " + totalWeight + "кг");
+        System.out.println("Общий вес боксёров = " + firstBoxerWeight + " + "
+                + secondBoxerWeight + " = " + totalWeight + "кг");
         var weightDifference = secondBoxerWeight - firstBoxerWeight;
-        System.out.println("Разница веса боксёров = " + secondBoxerWeight + " - " + firstBoxerWeight + " = " + weightDifference + "кг");
+        System.out.println("Разница веса боксёров = " + secondBoxerWeight + " - "
+                + firstBoxerWeight + " = " + weightDifference + "кг");
         // Задача 7
         var remainder = secondBoxerWeight%firstBoxerWeight;
         System.out.println("Остаток от деления = " + remainder);
@@ -58,7 +60,8 @@ public class Main {
         System.out.println("Всего работников в компании — " + totalEmployees + " человек");
         totalEmployees = totalEmployees + 94;
         totalHours = hoursForOne*totalEmployees;
-        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + totalHours + " часов может быть поделено между сотрудниками.");
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего "
+                + totalHours + " часов может быть поделено между сотрудниками.");
 
     }
 }
