@@ -113,5 +113,6 @@ public class Main {
      System.out.println("Разница годовой зарплаты Маши будет " + difference1 + " рублей");
      System.out.println("Разница годовой зарплаты Дениса будет " + difference2 + " рублей");
      System.out.println("Разница годовой зарплаты Кристины будет " + difference3 + " рублей");
+
     }
 }
